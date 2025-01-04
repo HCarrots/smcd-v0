@@ -4,8 +4,8 @@ PrimaryGenerator::PrimaryGenerator(){
     particleGun = new G4ParticleGun(1);
     particleTable = G4ParticleTable::GetParticleTable();
 
-    std::string partical_name = "e-";
-
+    G4String partical_name = "gamma";
+    
     particleDefinition = particleTable->FindParticle(partical_name);
     particleGun->SetParticleDefinition(particleDefinition);
 
@@ -16,7 +16,7 @@ PrimaryGenerator::PrimaryGenerator(){
     G4ThreeVector Gunpos(GunposX,GunposY,GunposZ);
     particleGun->SetParticlePosition(Gunpos);
 
-    G4double GunpX = 0.,GunpY = 0.,GunpZ = 0.;
+    G4double GunpX = 0.,GunpY = 0.,GunpZ = 1.;
     G4ThreeVector Gunp(GunpX,GunpY,GunpZ);
     particleGun->SetParticleMomentumDirection(Gunp);
 }

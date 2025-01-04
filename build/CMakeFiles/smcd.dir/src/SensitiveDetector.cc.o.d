@@ -1,8 +1,9 @@
-CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
- /home/hushiqi/works/smcd-v0/src/DetectorConstruction.cc \
+CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o: \
+ /home/hushiqi/works/smcd-v0/src/SensitiveDetector.cc \
  /usr/include/stdc-predef.h \
- /home/hushiqi/works/smcd-v0/include/DetectorConstruction.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/hushiqi/works/smcd-v0/include/SensitiveDetector.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VSensitiveDetector.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4CollectionNameVector.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/globals.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ios.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Types.hh \
@@ -217,41 +218,18 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /usr/include/c++/14.2.1/bits/stl_vector.h \
  /usr/include/c++/14.2.1/bits/stl_bvector.h \
  /usr/include/c++/14.2.1/bits/vector.tcc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/14.2.1/memory \
- /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
- /usr/include/c++/14.2.1/bits/align.h \
- /usr/include/c++/14.2.1/bits/unique_ptr.h \
- /usr/include/c++/14.2.1/bits/shared_ptr.h \
- /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
- /usr/include/c++/14.2.1/bits/allocated_ptr.h \
- /usr/include/c++/14.2.1/ext/concurrence.h \
- /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
- /usr/include/c++/14.2.1/bits/atomic_base.h \
- /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
- /usr/include/c++/14.2.1/backward/auto_ptr.h \
- /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Region.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GeomSplitter.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/geomwdefs.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AutoLock.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Threading.hh \
- /usr/include/c++/14.2.1/chrono \
- /usr/include/c++/14.2.1/condition_variable \
- /usr/include/c++/14.2.1/future \
- /usr/include/c++/14.2.1/bits/atomic_futex.h \
- /usr/include/c++/14.2.1/atomic \
- /usr/include/c++/14.2.1/bits/std_function.h \
- /usr/include/c++/14.2.1/bits/std_thread.h /usr/include/c++/14.2.1/thread \
- /usr/include/c++/14.2.1/bits/this_thread_sleep.h \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Region.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VPhysicalVolume.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/geomdefs.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RotationMatrix.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4HCofThisEvent.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Allocator.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AllocatorPool.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VHitsCollection.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Step.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ThreeVector.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Utility/defs.h \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VPhysicalVolume.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/geomdefs.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RotationMatrix.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/Rotation.h \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/LorentzVector.h \
@@ -268,10 +246,34 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/RotationZ.h \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/RotationZ.icc \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/Rotation.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GeomSplitter.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/geomwdefs.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AutoLock.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Threading.hh \
+ /usr/include/c++/14.2.1/chrono \
+ /usr/include/c++/14.2.1/condition_variable \
+ /usr/include/c++/14.2.1/bits/shared_ptr.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/14.2.1/bits/allocated_ptr.h \
+ /usr/include/c++/14.2.1/bits/unique_ptr.h \
+ /usr/include/c++/14.2.1/ext/concurrence.h /usr/include/c++/14.2.1/future \
+ /usr/include/c++/14.2.1/bits/atomic_base.h \
+ /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/14.2.1/bits/atomic_futex.h \
+ /usr/include/c++/14.2.1/atomic \
+ /usr/include/c++/14.2.1/bits/std_function.h \
+ /usr/include/c++/14.2.1/bits/std_thread.h /usr/include/c++/14.2.1/thread \
+ /usr/include/c++/14.2.1/bits/this_thread_sleep.h \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VPhysicalVolume.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4LogicalVolume.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VPhysicalVolume.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PVPlacement.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4StepPoint.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SteppingControl.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4StepStatus.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TouchableHandle.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VTouchable.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TouchableHistory.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistory.hh \
+ /usr/include/assert.h \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AffineTransform.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Transform3D.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Transform3D.h \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Transform3D.icc \
@@ -279,8 +281,25 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Vector3D.h \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NistManager.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ICRU90StoppingData.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AffineTransform.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationLevel.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationLevelRep.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationLevelRep.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationLevel.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistoryPool.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistory.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4LogicalVolume.hh \
+ /usr/include/c++/14.2.1/memory \
+ /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/14.2.1/bits/align.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/14.2.1/backward/auto_ptr.h \
+ /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Region.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Region.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4LogicalVolume.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TouchableHistory.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ReferenceCountedHandle.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Material.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Element.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ElementTable.hh \
@@ -307,66 +326,6 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4OrderedTable.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4DataVector.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4DataVector.icc \
- /usr/include/assert.h \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NistElementBuilder.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NistMaterialBuilder.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Pow.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Exp.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Material.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Element.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SystemOfUnits.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UnitsTable.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UnitsTable.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Box.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GeomTypes.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GeomConfig.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4CSGSolid.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VSolid.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VSolid.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Polyhedron.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/HepPolyhedron.h \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TwoVector.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/TwoVector.h \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Point3D.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Normal3D.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Visible.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Visible.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Box.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VisAttributes.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/graphics_reps_defs.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Colour.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Color.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VisAttributes.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Color.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SDManager.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4HCtable.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SDStructure.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VSensitiveDetector.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4CollectionNameVector.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4HCofThisEvent.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Allocator.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AllocatorPool.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VHitsCollection.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Step.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4StepPoint.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SteppingControl.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4StepStatus.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TouchableHandle.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VTouchable.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TouchableHistory.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistory.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AffineTransform.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AffineTransform.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationLevel.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationLevelRep.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationLevelRep.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationLevel.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistoryPool.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistory.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4LogicalVolume.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TouchableHistory.icc \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ReferenceCountedHandle.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4StepPoint.icc \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TrackVector.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Profiler.hh \
@@ -405,5 +364,6 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VReadOutGeometry.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SensitiveVolumeList.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VSDFilter.hh \
- /home/hushiqi/works/smcd-v0/include/SensitiveDetector.hh \
- /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VSensitiveDetector.hh
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SystemOfUnits.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UnitsTable.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UnitsTable.icc

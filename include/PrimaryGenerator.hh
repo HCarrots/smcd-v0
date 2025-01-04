@@ -14,7 +14,7 @@ public:
     PrimaryGenerator();
     ~PrimaryGenerator() override;
 
-    void GeneratePrimaries(G4Event *event) override;
+    void GeneratePrimaries(G4Event *) override;
 private:
     G4ParticleGun *particleGun;
     G4ParticleTable *particleTable;

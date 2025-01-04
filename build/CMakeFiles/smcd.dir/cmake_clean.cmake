@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/smcd.dir/src/PhysicsList.cc.o.d"
   "CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o"
   "CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o.d"
+  "CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o"
+  "CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o.d"
   "smcd"
   "smcd.pdb"
 )

@@ -742,6 +742,18 @@ CMakeFiles/smcd.dir/smcd.cc.o: /home/hushiqi/works/smcd-v0/smcd.cc \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UnitsTable.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UnitsTable.icc \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Box.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VisAttributes.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Color.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SDManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4HCtable.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SDStructure.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VSensitiveDetector.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4CollectionNameVector.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VReadOutGeometry.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SensitiveVolumeList.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VSDFilter.hh \
+ /home/hushiqi/works/smcd-v0/include/SensitiveDetector.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VSensitiveDetector.hh \
  /home/hushiqi/works/smcd-v0/include/ActionInitialization.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserActionInitialization.hh \
  /home/hushiqi/works/smcd-v0/include/PrimaryGenerator.hh \

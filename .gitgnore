@@ -1,0 +1,7 @@
+*.log
+*.json 
+.qt/
+.cmake/
+CMakeCache.txt
+cmake_install.cmake 
+*.yaml

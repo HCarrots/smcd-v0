@@ -14,6 +14,12 @@
 #include "G4UnitsTable.hh"
 #include "G4Box.hh"
 
+#include "G4VisAttributes.hh"
+#include "G4Color.hh"
+#include "G4SDManager.hh"
+
+#include "SensitiveDetector.hh"
+
 class DetectorConstruction: public G4VUserDetectorConstruction {
 
 public:
@@ -21,15 +27,11 @@ public:
     ~DetectorConstruction() override;
 
     G4VPhysicalVolume *Construct() override;
+private:
+    G4LogicalVolume *logicDet;
 
-
-
+    virtual void ConstructSDandField();
 };
-
-
-
-
-
 
 
 #endif
