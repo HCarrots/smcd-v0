@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hushiqi/works/smcd-v0/smcd.cc" "CMakeFiles/smcd.dir/smcd.cc.o" "gcc" "CMakeFiles/smcd.dir/smcd.cc.o.d"
-  "/home/hushiqi/works/smcd-v0/src/ActionInitialization.cc" "CMakeFiles/smcd.dir/src/ActionInitialization.cc.o" "gcc" "CMakeFiles/smcd.dir/src/ActionInitialization.cc.o.d"
-  "/home/hushiqi/works/smcd-v0/src/DetectorConstruction.cc" "CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o.d"
-  "/home/hushiqi/works/smcd-v0/src/PhysicsList.cc" "CMakeFiles/smcd.dir/src/PhysicsList.cc.o" "gcc" "CMakeFiles/smcd.dir/src/PhysicsList.cc.o.d"
-  "/home/hushiqi/works/smcd-v0/src/PrimaryGenertor.cc" "CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o" "gcc" "CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o.d"
-  "/home/hushiqi/works/smcd-v0/src/SensitiveDetector.cc" "CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o" "gcc" "CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o.d"
+  "/home/hooke/works/smcd-v0/smcd.cc" "CMakeFiles/smcd.dir/smcd.cc.o" "gcc" "CMakeFiles/smcd.dir/smcd.cc.o.d"
+  "/home/hooke/works/smcd-v0/src/ActionInitialization.cc" "CMakeFiles/smcd.dir/src/ActionInitialization.cc.o" "gcc" "CMakeFiles/smcd.dir/src/ActionInitialization.cc.o.d"
+  "/home/hooke/works/smcd-v0/src/DetectorConstruction.cc" "CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o.d"
+  "/home/hooke/works/smcd-v0/src/PhysicsList.cc" "CMakeFiles/smcd.dir/src/PhysicsList.cc.o" "gcc" "CMakeFiles/smcd.dir/src/PhysicsList.cc.o.d"
+  "/home/hooke/works/smcd-v0/src/PrimaryGenertor.cc" "CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o" "gcc" "CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o.d"
+  "/home/hooke/works/smcd-v0/src/SensitiveDetector.cc" "CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o" "gcc" "CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o.d"
   "" "smcd" "gcc" "CMakeFiles/smcd.dir/link.d"
   )
 

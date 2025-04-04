@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SimCD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SimCD-Debug-f3e01f94c4d07ab93e94.json",
+					"jsonFile" : "target-SimCD-f3e01f94c4d07ab93e94.json",
 					"name" : "SimCD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "smcd::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-smcd-Debug-4d3b635328a259f6c1f2.json",
+					"jsonFile" : "target-smcd-1dcc6c9c8950b4c5b419.json",
 					"name" : "smcd",
 					"projectIndex" : 0
 				}
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/hushiqi/works/smcd-v0/build",
-		"source" : "/home/hushiqi/works/smcd-v0"
+		"build" : "/home/hooke/works/smcd-v0/build",
+		"source" : "/home/hooke/works/smcd-v0"
 	},
 	"version" : 
 	{

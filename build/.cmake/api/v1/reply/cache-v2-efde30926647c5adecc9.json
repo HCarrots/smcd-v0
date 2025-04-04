@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/addr2line"
+			"value" : "/usr/bin/addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/ar"
+			"value" : "/usr/bin/ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -39,11 +39,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/hushiqi/works/smcd-v0/build"
+			"value" : "/home/hooke/works/smcd-v0/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -159,7 +159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/c++"
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/gcc-ar"
+			"value" : "/usr/bin/gcc-ar"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -191,7 +191,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/gcc-ranlib"
+			"value" : "/usr/bin/gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -287,7 +287,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/cc"
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -303,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/gcc-ar"
+			"value" : "/usr/bin/gcc-ar"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -319,7 +319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/gcc-ranlib"
+			"value" : "/usr/bin/gcc-ranlib"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -526,12 +526,16 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "Enable/Disable output of compile commands during generation."
 				}
 			],
 			"type" : "BOOL",
-			"value" : "TRUE"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
@@ -555,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/hushiqi/works/smcd-v0/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/hooke/works/smcd-v0/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -675,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/hushiqi/works/smcd-v0"
+			"value" : "/home/hooke/works/smcd-v0"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -983,7 +987,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/ld"
+			"value" : "/usr/bin/ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -999,7 +1003,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/make"
+			"value" : "/usr/bin/make"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1095,7 +1099,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/nm"
+			"value" : "/usr/bin/nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1123,7 +1127,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/objcopy"
+			"value" : "/usr/bin/objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1139,7 +1143,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/objdump"
+			"value" : "/usr/bin/objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1203,7 +1207,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/ranlib"
+			"value" : "/usr/bin/ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1219,7 +1223,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/readelf"
+			"value" : "/usr/bin/readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1439,7 +1443,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/strip"
+			"value" : "/usr/bin/strip"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1467,7 +1471,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/sbin/uname"
+			"value" : "/usr/bin/uname"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1507,7 +1511,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "optimized;Coin;debug;Coin"
+			"value" : "Coin"
 		},
 		{
 			"name" : "Coin_LIBRARY_DEBUG",
@@ -1623,7 +1627,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/opt/Geant4/Geant4-v11.2.2/lib/cmake/Geant4/Geant4Config.cmake][v11.2.2()]"
+			"value" : "[/opt/Geant4/Geant4-v11.3.0/lib/cmake/Geant4/Geant4Config.cmake][v11.3.0()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Motif",
@@ -1719,7 +1723,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/libxkbcommon.so][/usr/include][v1.7.0(0.5.0)]"
+			"value" : "[/usr/lib/libxkbcommon.so][/usr/include][v1.8.0(0.5.0)]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_XercesC",
@@ -1731,7 +1735,19 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/libxerces-c.so][/usr/include][3.2.5][v3.2.5(3.2.5)]"
+			"value" : "[/usr/lib/libxerces-c.so][/usr/include][3.3.0][v3.3.0(3.3.0)]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_ZLIB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding ZLIB"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/lib/libz.so][/usr/include][c ][v1.3.1(1.3.1)]"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_freetype2",
@@ -1839,7 +1855,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/opt/Geant4/Geant4-v11.2.2/lib/cmake/Geant4"
+			"value" : "/opt/Geant4/Geant4-v11.3.0/lib/cmake/Geant4"
 		},
 		{
 			"name" : "HAVE_STDATOMIC",
@@ -2559,7 +2575,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/sbin/pkg-config"
+			"value" : "/usr/bin/pkg-config"
 		},
 		{
 			"name" : "PKG_FONTCONFIG_CFLAGS",
@@ -2823,7 +2839,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-L/usr/lib;-lfontconfig;-pthread;-lfreetype;-lbz2;-lpng16;-lm;-lm;-lz;-lharfbuzz;-pthread;-lm;-lglib-2.0;-lm;-lsysprof-capture-4;-pthread;-lpcre2-8;-lgraphite2;-lbrotlidec;-lbrotlicommon;-lexpat;-lm"
+			"value" : "-L/usr/lib;-lfontconfig;-pthread;-lm;-lfreetype;-lbz2;-lpng16;-lm;-lm;-lz;-lharfbuzz;-pthread;-lm;-lglib-2.0;-lm;-lsysprof-capture-4;-pthread;-lpcre2-8;-lgraphite2;-lbrotlidec;-lbrotlicommon;-lexpat;-lm"
 		},
 		{
 			"name" : "PKG_FONTCONFIG_STATIC_LDFLAGS_OTHER",
@@ -2859,7 +2875,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "fontconfig;freetype;bz2;png16;m;m;z;harfbuzz;m;glib-2.0;m;sysprof-capture-4;pcre2-8;graphite2;brotlidec;brotlicommon;expat;m"
+			"value" : "fontconfig;m;freetype;bz2;png16;m;m;z;harfbuzz;m;glib-2.0;m;sysprof-capture-4;pcre2-8;graphite2;brotlidec;brotlicommon;expat;m"
 		},
 		{
 			"name" : "PKG_FONTCONFIG_STATIC_LIBRARY_DIRS",
@@ -2931,7 +2947,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2.15.0"
+			"value" : "2.16.0"
 		},
 		{
 			"name" : "PKG_FONTCONFIG_fontconfig_INCLUDEDIR",
@@ -3351,7 +3367,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1.7.0"
+			"value" : "1.8.0"
 		},
 		{
 			"name" : "PKG_XKB_xkbcommon_INCLUDEDIR",
@@ -3411,7 +3427,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/opt/Geant4/Geant4-v11.2.2/lib/cmake/Geant4/PTL"
+			"value" : "/opt/Geant4/Geant4-v11.3.0/lib/cmake/Geant4/PTL"
 		},
 		{
 			"name" : "QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH",
@@ -8151,7 +8167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/hushiqi/works/smcd-v0/build"
+			"value" : "/home/hooke/works/smcd-v0/build"
 		},
 		{
 			"name" : "SimCD_IS_TOP_LEVEL",
@@ -8175,7 +8191,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/hushiqi/works/smcd-v0"
+			"value" : "/home/hooke/works/smcd-v0"
 		},
 		{
 			"name" : "SoQt_DIR",
@@ -8215,7 +8231,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND"
+			"value" : "/bin/glslangValidator"
 		},
 		{
 			"name" : "Vulkan_GLSLC_EXECUTABLE",
@@ -8231,7 +8247,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "Vulkan_GLSLC_EXECUTABLE-NOTFOUND"
+			"value" : "/bin/glslc"
 		},
 		{
 			"name" : "Vulkan_INCLUDE_DIR",
@@ -8263,7 +8279,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "Vulkan_LIBRARY-NOTFOUND"
+			"value" : "/lib/libvulkan.so"
 		},
 		{
 			"name" : "X11_ICE_INCLUDE_PATH",
@@ -8296,22 +8312,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/libICE.so"
-		},
-		{
-			"name" : "X11_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : ""
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
 		},
 		{
 			"name" : "X11_LIB_X11_SOLO",
@@ -8499,7 +8499,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_Xaccessrules_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_Xaccessstr_INCLUDE_PATH",
@@ -8595,7 +8595,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_Xcomposite_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_Xcomposite_LIB",
@@ -8611,7 +8611,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_Xcomposite_LIB-NOTFOUND"
+			"value" : "/usr/lib/libXcomposite.so"
 		},
 		{
 			"name" : "X11_Xcursor_INCLUDE_PATH",
@@ -8627,7 +8627,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_Xcursor_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_Xcursor_LIB",
@@ -8643,7 +8643,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_Xcursor_LIB-NOTFOUND"
+			"value" : "/usr/lib/libXcursor.so"
 		},
 		{
 			"name" : "X11_Xdamage_INCLUDE_PATH",
@@ -8659,7 +8659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_Xdamage_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_Xdamage_LIB",
@@ -8675,7 +8675,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_Xdamage_LIB-NOTFOUND"
+			"value" : "/usr/lib/libXdamage.so"
 		},
 		{
 			"name" : "X11_Xdbe_INCLUDE_PATH",
@@ -8835,7 +8835,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_Xi_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_Xi_LIB",
@@ -8851,7 +8851,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_Xi_LIB-NOTFOUND"
+			"value" : "/usr/lib/libXi.so"
 		},
 		{
 			"name" : "X11_Xinerama_INCLUDE_PATH",
@@ -8867,7 +8867,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_Xinerama_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_Xinerama_LIB",
@@ -8883,7 +8883,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_Xinerama_LIB-NOTFOUND"
+			"value" : "/usr/lib/libXinerama.so"
 		},
 		{
 			"name" : "X11_Xkb_INCLUDE_PATH",
@@ -9011,7 +9011,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_Xrandr_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_Xrandr_LIB",
@@ -9027,7 +9027,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_Xrandr_LIB-NOTFOUND"
+			"value" : "/usr/lib/libXrandr.so"
 		},
 		{
 			"name" : "X11_Xrender_INCLUDE_PATH",
@@ -9091,7 +9091,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_Xss_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_Xss_LIB",
@@ -9107,7 +9107,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_Xss_LIB-NOTFOUND"
+			"value" : "/usr/lib/libXss.so"
 		},
 		{
 			"name" : "X11_Xt_INCLUDE_PATH",
@@ -9155,7 +9155,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_Xtst_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_Xtst_LIB",
@@ -9171,7 +9171,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_Xtst_LIB-NOTFOUND"
+			"value" : "/usr/lib/libXtst.so"
 		},
 		{
 			"name" : "X11_Xutil_INCLUDE_PATH",
@@ -9203,7 +9203,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_Xv_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_Xv_LIB",
@@ -9219,7 +9219,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_Xv_LIB-NOTFOUND"
+			"value" : "/usr/lib/libXv.so"
 		},
 		{
 			"name" : "X11_Xxf86misc_INCLUDE_PATH",
@@ -10239,7 +10239,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_xcb_xrm_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_xcb_xrm_LIB",
@@ -10255,7 +10255,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_xcb_xrm_LIB-NOTFOUND"
+			"value" : "/usr/lib/libxcb-xrm.so"
 		},
 		{
 			"name" : "X11_xcb_xtest_INCLUDE_PATH",
@@ -10431,7 +10431,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_xkbfile_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_xkbfile_LIB",
@@ -10447,7 +10447,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_xkbfile_LIB-NOTFOUND"
+			"value" : "/usr/lib/libxkbfile.so"
 		},
 		{
 			"name" : "XKB_INCLUDE_DIR",
@@ -10520,6 +10520,54 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/libxerces-c.so"
+		},
+		{
+			"name" : "ZLIB_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "ZLIB_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "ZLIB_LIBRARY_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "ZLIB_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/libz.so"
 		},
 		{
 			"name" : "_CMAKE_CXX_LINKER_PUSHPOP_STATE_SUPPORTED",

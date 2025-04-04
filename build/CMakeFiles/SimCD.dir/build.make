@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hushiqi/works/smcd-v0
+CMAKE_SOURCE_DIR = /home/hooke/works/smcd-v0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hushiqi/works/smcd-v0/build
+CMAKE_BINARY_DIR = /home/hooke/works/smcd-v0/build
 
 # Utility rule file for SimCD.
 
@@ -84,6 +84,6 @@ CMakeFiles/SimCD.dir/clean:
 .PHONY : CMakeFiles/SimCD.dir/clean
 
 CMakeFiles/SimCD.dir/depend:
-	cd /home/hushiqi/works/smcd-v0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hushiqi/works/smcd-v0 /home/hushiqi/works/smcd-v0 /home/hushiqi/works/smcd-v0/build /home/hushiqi/works/smcd-v0/build /home/hushiqi/works/smcd-v0/build/CMakeFiles/SimCD.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hooke/works/smcd-v0/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hooke/works/smcd-v0 /home/hooke/works/smcd-v0 /home/hooke/works/smcd-v0/build /home/hooke/works/smcd-v0/build /home/hooke/works/smcd-v0/build/CMakeFiles/SimCD.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SimCD.dir/depend
 
