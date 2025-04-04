@@ -21,7 +21,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake"
+			"path" : "/usr/share/cmake/Modules/CMakeNinjaFindMake.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -814,6 +814,16 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-CXX-CXXImportStd.cmake"
 		},
 		{
 			"isCMake" : true,

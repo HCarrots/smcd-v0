@@ -193,6 +193,9 @@
 			"compileCommandFragments" : 
 			[
 				{
+					"fragment" : "-g"
+				},
+				{
 					"backtrace" : 2,
 					"fragment" : "-mno-direct-extern-access"
 				}
@@ -273,11 +276,11 @@
 				},
 				{
 					"backtrace" : 2,
-					"define" : "QT_NO_DEBUG"
+					"define" : "QT_WIDGETS_LIB"
 				},
 				{
 					"backtrace" : 2,
-					"define" : "QT_WIDGETS_LIB"
+					"define" : "TBB_USE_DEBUG"
 				}
 			],
 			"includes" : 
@@ -348,6 +351,10 @@
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"fragment" : "-Wl,-rpath,/opt/Geant4/Geant4-v11.3.1/lib",
 				"role" : "libraries"
