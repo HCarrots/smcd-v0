@@ -19,6 +19,11 @@
 #include "G4SDManager.hh"
 
 #include "SensitiveDetector.hh"
+#include "G4SubtractionSolid.hh"
+#include "G4MultiFunctionalDetector.hh"
+#include "G4PSEnergyDeposit.hh"
+#include "G4PSNofSecondary.hh"
+#include "G4SDParticleFilter.hh"
 
 class DetectorConstruction: public G4VUserDetectorConstruction {
 
@@ -31,6 +36,12 @@ private:
     G4LogicalVolume *logicDet;
 
     virtual void ConstructSDandField();
+    G4MultiFunctionalDetector* bremsDetector1;  // 首字母小写
+    G4MultiFunctionalDetector* bremsDetectorSiC;
+    G4MultiFunctionalDetector* bremsDetector2;
+    G4MultiFunctionalDetector* bremsDetector3;
+
+
 };
 
 

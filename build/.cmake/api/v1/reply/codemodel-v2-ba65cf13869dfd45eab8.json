@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SimCD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SimCD-f3e01f94c4d07ab93e94.json",
+					"jsonFile" : "target-SimCD-9ff8ec498b5e3adbea23.json",
 					"name" : "SimCD",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "smcd::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-smcd-1dcc6c9c8950b4c5b419.json",
+					"jsonFile" : "target-smcd-170931181c0a0ad846bb.json",
 					"name" : "smcd",
 					"projectIndex" : 0
 				}
@@ -64,6 +64,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 7
+		"minor" : 8
 	}
 }

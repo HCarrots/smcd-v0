@@ -37,6 +37,8 @@ int main(int argc,char **argv){
     uiManager->ApplyCommand("/control/execute vis.mac");
     
     ui->SessionStart();
+    delete ui;
+    delete visManager;
 
     return 0;
 

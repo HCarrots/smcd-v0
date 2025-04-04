@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_CACHE_MINOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "31"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "5"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_COLOR_MAKEFILE",
@@ -990,6 +990,18 @@
 			"value" : "/usr/bin/ld"
 		},
 		{
+			"name" : "CMAKE_LIST_FILE_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of CMakeLists files to read"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "CMakeLists.txt"
+		},
+		{
 			"name" : "CMAKE_MAKE_PROGRAM",
 			"properties" : 
 			[
@@ -1603,7 +1615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/libexpat.so][/usr/include][v2.6.4(2.6.4)]"
+			"value" : "[/usr/lib/libexpat.so][/usr/include][v2.7.1(2.7.0)]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Freetype",
@@ -1627,7 +1639,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/opt/Geant4/Geant4-v11.3.0/lib/cmake/Geant4/Geant4Config.cmake][v11.3.0()]"
+			"value" : "[/opt/Geant4/Geant4-v11.3.1/lib/cmake/Geant4/Geant4Config.cmake][v11.3.1()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Motif",
@@ -1651,7 +1663,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/libOpenGL.so][/usr/lib/libGLX.so][/usr/include][c ][v()]"
+			"value" : "[/usr/lib/libOpenGL.so][/usr/lib/libGLX.so][/usr/include][ ][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
@@ -1711,7 +1723,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/include][/usr/lib/libX11.so][c ][v()]"
+			"value" : "[/usr/include][/usr/lib/libX11.so][ ][v()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_XKB",
@@ -1723,7 +1735,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/libxkbcommon.so][/usr/include][v1.8.0(0.5.0)]"
+			"value" : "[/usr/lib/libxkbcommon.so][/usr/include][v1.8.1(0.5.0)]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_XercesC",
@@ -1747,7 +1759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/lib/libz.so][/usr/include][c ][v1.3.1(1.3.1)]"
+			"value" : "[/usr/lib/libz.so][/usr/include][ ][v1.3.1(1.3.1)]"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_freetype2",
@@ -1855,7 +1867,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/opt/Geant4/Geant4-v11.3.0/lib/cmake/Geant4"
+			"value" : "/opt/Geant4/Geant4-v11.3.1/lib/cmake/Geant4"
 		},
 		{
 			"name" : "HAVE_STDATOMIC",
@@ -2495,7 +2507,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2.6.4"
+			"value" : "2.7.1"
 		},
 		{
 			"name" : "PC_EXPAT_expat_INCLUDEDIR",
@@ -2947,7 +2959,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2.16.0"
+			"value" : "2.16.1"
 		},
 		{
 			"name" : "PKG_FONTCONFIG_fontconfig_INCLUDEDIR",
@@ -3367,7 +3379,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1.8.0"
+			"value" : "1.8.1"
 		},
 		{
 			"name" : "PKG_XKB_xkbcommon_INCLUDEDIR",
@@ -3427,7 +3439,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/opt/Geant4/Geant4-v11.3.0/lib/cmake/Geant4/PTL"
+			"value" : "/opt/Geant4/Geant4-v11.3.1/lib/cmake/Geant4/PTL"
 		},
 		{
 			"name" : "QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH",
@@ -3880,18 +3892,6 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "Qt feature: clock_monotonic (from target Qt6::Core)"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "ON"
-		},
-		{
-			"name" : "QT_FEATURE_close_range",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Qt feature: close_range (from target Qt6::Core)"
 				}
 			],
 			"type" : "INTERNAL",
@@ -8435,7 +8435,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X11_XRes_INCLUDE_PATH-NOTFOUND"
+			"value" : "/usr/include"
 		},
 		{
 			"name" : "X11_XRes_LIB",
@@ -8451,7 +8451,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "X11_XRes_LIB-NOTFOUND"
+			"value" : "/usr/lib/libXRes.so"
 		},
 		{
 			"name" : "X11_XShm_INCLUDE_PATH",
@@ -8996,6 +8996,38 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/libXpm.so"
+		},
+		{
+			"name" : "X11_Xpresent_INCLUDE_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "X11_Xpresent_INCLUDE_PATH-NOTFOUND"
+		},
+		{
+			"name" : "X11_Xpresent_LIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "X11_Xpresent_LIB-NOTFOUND"
 		},
 		{
 			"name" : "X11_Xrandr_INCLUDE_PATH",
@@ -10568,42 +10600,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/libz.so"
-		},
-		{
-			"name" : "_CMAKE_CXX_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "_CMAKE_C_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hooke/works/smcd-v0/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

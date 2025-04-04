@@ -1,6 +1,6 @@
 #include "PrimaryGenerator.hh"
 
-PrimaryGenerator::PrimaryGenerator(){
+/*PrimaryGenerator::PrimaryGenerator(){
     particleGun = new G4ParticleGun(1);
     particleTable = G4ParticleTable::GetParticleTable();
 
@@ -20,11 +20,17 @@ PrimaryGenerator::PrimaryGenerator(){
     G4ThreeVector Gunp(GunpX,GunpY,GunpZ);
     particleGun->SetParticleMomentumDirection(Gunp);
 }
-
 PrimaryGenerator::~PrimaryGenerator(){
     delete particleGun;
 }
-
 void PrimaryGenerator::GeneratePrimaries(G4Event *event){
     particleGun->GeneratePrimaryVertex(event);
 }
+*/
+
+PrimaryGenerator::PrimaryGenerator() : G4VUserPrimaryGeneratorAction() {
+    fGPS = new G4GeneralParticleSource;
+  }
+  PrimaryGenerator::~PrimaryGenerator() { delete fGPS; }
+void PrimaryGenerator::GeneratePrimaries(G4Event *evt) { 
+    fGPS->GeneratePrimaryVertex(evt); }
