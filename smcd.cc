@@ -14,7 +14,11 @@
 
 int main(int argc,char **argv){
     
-    G4UIExecutive *ui = new G4UIExecutive(argc,argv);
+    //G4UIExecutive *ui = new G4UIExecutive(argc,argv);
+    G4UIExecutive* ui = nullptr;
+    if (argc == 1) {
+      ui = new G4UIExecutive(argc, argv);
+    }
 
     #ifdef G4MULTITHREADED
     G4MTRunManager *runManager = new G4MTRunManager;
@@ -34,10 +38,27 @@ int main(int argc,char **argv){
 
     G4UImanager *uiManager = G4UImanager::GetUIpointer();
 
-    uiManager->ApplyCommand("/control/execute vis.mac");
+    //uiManager->ApplyCommand("/control/execute vis.mac");
     
+    //ui->SessionStart();
+    //delete ui;
+      // Process macro or start UI session
+  //
+    if (!ui) {
+    // batch mode
+    G4String command = "/control/execute ";
+    G4String fileName = argv[1];
+    UImanager->ApplyCommand(command + fileName);
+    }
+    else {
+    // interactive mode
+    UImanager->ApplyCommand("/control/execute vis.mac");
+    //if (ui->IsGUI()) {
+    //  UImanager->ApplyCommand("/control/execute gui.mac");
+    //}
     ui->SessionStart();
     delete ui;
+    }    
     delete visManager;
 
     return 0;
