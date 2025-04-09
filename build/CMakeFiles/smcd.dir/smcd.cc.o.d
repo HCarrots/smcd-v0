@@ -690,6 +690,13 @@ CMakeFiles/smcd.dir/smcd.cc.o: /home/hooke/works/smcd-v0/smcd.cc \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4MultiFunctionalDetector.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4PSNofSecondary.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SDParticleFilter.hh \
+ /home/hooke/works/smcd-v0/include/TrackerHit.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Allocator.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4THitsCollection.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Threading.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ThreeVector.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VHit.hh \
+ /home/hooke/works/smcd-v0/include/TrackerSD.hh \
  /home/hooke/works/smcd-v0/include/ActionInitialization.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VUserActionInitialization.hh \
  /home/hooke/works/smcd-v0/include/PrimaryGenerator.hh \
@@ -707,4 +714,8 @@ CMakeFiles/smcd.dir/smcd.cc.o: /home/hooke/works/smcd-v0/smcd.cc \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ParticleDefinition.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ParticleGun.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ParticleTable.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VUserPrimaryGeneratorAction.hh
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /home/hooke/works/smcd-v0/include/RunAction.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4UserRunAction.hh \
+ /home/hooke/works/smcd-v0/include/EventAction.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4UserEventAction.hh

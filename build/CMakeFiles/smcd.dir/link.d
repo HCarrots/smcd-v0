@@ -5,9 +5,13 @@ smcd: \
   CMakeFiles/smcd.dir/smcd.cc.o \
   CMakeFiles/smcd.dir/src/ActionInitialization.cc.o \
   CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o \
+  CMakeFiles/smcd.dir/src/EventAction.cc.o \
   CMakeFiles/smcd.dir/src/PhysicsList.cc.o \
   CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o \
+  CMakeFiles/smcd.dir/src/RunAction.cc.o \
   CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o \
+  CMakeFiles/smcd.dir/src/TrackerHit.cc.o \
+  CMakeFiles/smcd.dir/src/TrackerSD.cc.o \
   /opt/Geant4/Geant4-v11.3.1/lib/libG4Tree.so \
   /opt/Geant4/Geant4-v11.3.1/lib/libG4FR.so \
   /opt/Geant4/Geant4-v11.3.1/lib/libG4GMocren.so \
@@ -44,10 +48,10 @@ smcd: \
   /usr/lib/libICE.so \
   /usr/lib/libSM.so \
   /usr/lib/libX11.so \
-  /usr/lib/libQt6Widgets.so.6.8.3 \
-  /usr/lib/libQt6Gui.so.6.8.3 \
+  /usr/lib/libQt6Widgets.so.6.9.0 \
+  /usr/lib/libQt6Gui.so.6.9.0 \
   /usr/lib/libGL.so \
-  /usr/lib/libQt6Core.so.6.8.3 \
+  /usr/lib/libQt6Core.so.6.9.0 \
   /usr/lib/libxerces-c.so \
   /opt/Geant4/Geant4-v11.3.1/lib/libG4analysis.so \
   /usr/lib/libfreetype.so \
@@ -157,11 +161,19 @@ CMakeFiles/smcd.dir/src/ActionInitialization.cc.o:
 
 CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o:
 
+CMakeFiles/smcd.dir/src/EventAction.cc.o:
+
 CMakeFiles/smcd.dir/src/PhysicsList.cc.o:
 
 CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o:
 
+CMakeFiles/smcd.dir/src/RunAction.cc.o:
+
 CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o:
+
+CMakeFiles/smcd.dir/src/TrackerHit.cc.o:
+
+CMakeFiles/smcd.dir/src/TrackerSD.cc.o:
 
 /opt/Geant4/Geant4-v11.3.1/lib/libG4Tree.so:
 
@@ -235,13 +247,13 @@ CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o:
 
 /usr/lib/libX11.so:
 
-/usr/lib/libQt6Widgets.so.6.8.3:
+/usr/lib/libQt6Widgets.so.6.9.0:
 
-/usr/lib/libQt6Gui.so.6.8.3:
+/usr/lib/libQt6Gui.so.6.9.0:
 
 /usr/lib/libGL.so:
 
-/usr/lib/libQt6Core.so.6.8.3:
+/usr/lib/libQt6Core.so.6.9.0:
 
 /usr/lib/libxerces-c.so:
 

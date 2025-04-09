@@ -214,6 +214,30 @@ src/DetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/DetectorConstruction.cc.s
 .PHONY : src/DetectorConstruction.cc.s
 
+src/EventAction.o: src/EventAction.cc.o
+.PHONY : src/EventAction.o
+
+# target to build an object file
+src/EventAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/EventAction.cc.o
+.PHONY : src/EventAction.cc.o
+
+src/EventAction.i: src/EventAction.cc.i
+.PHONY : src/EventAction.i
+
+# target to preprocess a source file
+src/EventAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/EventAction.cc.i
+.PHONY : src/EventAction.cc.i
+
+src/EventAction.s: src/EventAction.cc.s
+.PHONY : src/EventAction.s
+
+# target to generate assembly for a file
+src/EventAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/EventAction.cc.s
+.PHONY : src/EventAction.cc.s
+
 src/PhysicsList.o: src/PhysicsList.cc.o
 .PHONY : src/PhysicsList.o
 
@@ -262,6 +286,30 @@ src/PrimaryGenertor.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.s
 .PHONY : src/PrimaryGenertor.cc.s
 
+src/RunAction.o: src/RunAction.cc.o
+.PHONY : src/RunAction.o
+
+# target to build an object file
+src/RunAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/RunAction.cc.o
+.PHONY : src/RunAction.cc.o
+
+src/RunAction.i: src/RunAction.cc.i
+.PHONY : src/RunAction.i
+
+# target to preprocess a source file
+src/RunAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/RunAction.cc.i
+.PHONY : src/RunAction.cc.i
+
+src/RunAction.s: src/RunAction.cc.s
+.PHONY : src/RunAction.s
+
+# target to generate assembly for a file
+src/RunAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/RunAction.cc.s
+.PHONY : src/RunAction.cc.s
+
 src/SensitiveDetector.o: src/SensitiveDetector.cc.o
 .PHONY : src/SensitiveDetector.o
 
@@ -286,6 +334,54 @@ src/SensitiveDetector.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/SensitiveDetector.cc.s
 .PHONY : src/SensitiveDetector.cc.s
 
+src/TrackerHit.o: src/TrackerHit.cc.o
+.PHONY : src/TrackerHit.o
+
+# target to build an object file
+src/TrackerHit.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/TrackerHit.cc.o
+.PHONY : src/TrackerHit.cc.o
+
+src/TrackerHit.i: src/TrackerHit.cc.i
+.PHONY : src/TrackerHit.i
+
+# target to preprocess a source file
+src/TrackerHit.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/TrackerHit.cc.i
+.PHONY : src/TrackerHit.cc.i
+
+src/TrackerHit.s: src/TrackerHit.cc.s
+.PHONY : src/TrackerHit.s
+
+# target to generate assembly for a file
+src/TrackerHit.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/TrackerHit.cc.s
+.PHONY : src/TrackerHit.cc.s
+
+src/TrackerSD.o: src/TrackerSD.cc.o
+.PHONY : src/TrackerSD.o
+
+# target to build an object file
+src/TrackerSD.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/TrackerSD.cc.o
+.PHONY : src/TrackerSD.cc.o
+
+src/TrackerSD.i: src/TrackerSD.cc.i
+.PHONY : src/TrackerSD.i
+
+# target to preprocess a source file
+src/TrackerSD.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/TrackerSD.cc.i
+.PHONY : src/TrackerSD.cc.i
+
+src/TrackerSD.s: src/TrackerSD.cc.s
+.PHONY : src/TrackerSD.s
+
+# target to generate assembly for a file
+src/TrackerSD.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/src/TrackerSD.cc.s
+.PHONY : src/TrackerSD.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -305,15 +401,27 @@ help:
 	@echo "... src/DetectorConstruction.o"
 	@echo "... src/DetectorConstruction.i"
 	@echo "... src/DetectorConstruction.s"
+	@echo "... src/EventAction.o"
+	@echo "... src/EventAction.i"
+	@echo "... src/EventAction.s"
 	@echo "... src/PhysicsList.o"
 	@echo "... src/PhysicsList.i"
 	@echo "... src/PhysicsList.s"
 	@echo "... src/PrimaryGenertor.o"
 	@echo "... src/PrimaryGenertor.i"
 	@echo "... src/PrimaryGenertor.s"
+	@echo "... src/RunAction.o"
+	@echo "... src/RunAction.i"
+	@echo "... src/RunAction.s"
 	@echo "... src/SensitiveDetector.o"
 	@echo "... src/SensitiveDetector.i"
 	@echo "... src/SensitiveDetector.s"
+	@echo "... src/TrackerHit.o"
+	@echo "... src/TrackerHit.i"
+	@echo "... src/TrackerHit.s"
+	@echo "... src/TrackerSD.o"
+	@echo "... src/TrackerSD.i"
+	@echo "... src/TrackerSD.s"
 .PHONY : help
 
 

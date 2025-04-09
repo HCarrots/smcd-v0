@@ -86,12 +86,12 @@ clean: CMakeFiles/SimCD.dir/clean
 CMakeFiles/smcd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target smcd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target smcd"
 .PHONY : CMakeFiles/smcd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/smcd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hooke/works/smcd-v0/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hooke/works/smcd-v0/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/smcd.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hooke/works/smcd-v0/build/CMakeFiles 0
 .PHONY : CMakeFiles/smcd.dir/rule
@@ -103,7 +103,7 @@ smcd: CMakeFiles/smcd.dir/rule
 # codegen rule for target.
 CMakeFiles/smcd.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/smcd.dir/build.make CMakeFiles/smcd.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target smcd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Finished codegen for target smcd"
 .PHONY : CMakeFiles/smcd.dir/codegen
 
 # clean rule for target.
@@ -123,7 +123,7 @@ CMakeFiles/SimCD.dir/all: CMakeFiles/smcd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SimCD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hooke/works/smcd-v0/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hooke/works/smcd-v0/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SimCD.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hooke/works/smcd-v0/build/CMakeFiles 0
 .PHONY : CMakeFiles/SimCD.dir/rule

@@ -1,13 +1,8 @@
-CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
- /home/hooke/works/smcd-v0/src/DetectorConstruction.cc \
- /usr/include/stdc-predef.h \
- /home/hooke/works/smcd-v0/include/DetectorConstruction.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VUserDetectorConstruction.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/globals.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ios.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Types.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4GlobalConfig.hh \
- /usr/include/c++/14.2.1/complex \
+CMakeFiles/smcd.dir/src/TrackerSD.cc.o: \
+ /home/hooke/works/smcd-v0/src/TrackerSD.cc /usr/include/stdc-predef.h \
+ /home/hooke/works/smcd-v0/include/TrackerSD.hh \
+ /usr/include/c++/14.2.1/vector \
+ /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -16,41 +11,12 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/14.2.1/pstl/pstl_config.h \
- /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
- /usr/include/c++/14.2.1/bits/version.h \
- /usr/include/c++/14.2.1/ext/type_traits.h /usr/include/c++/14.2.1/cmath \
- /usr/include/c++/14.2.1/bits/requires_hosted.h /usr/include/math.h \
- /usr/include/bits/libc-header-start.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
- /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/14.2.1/bits/std_abs.h \
- /usr/include/stdlib.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
- /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
- /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
- /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
- /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
- /usr/include/bits/types/__sigset_t.h \
- /usr/include/bits/types/struct_timeval.h \
- /usr/include/bits/types/struct_timespec.h \
- /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
- /usr/include/bits/pthreadtypes-arch.h \
- /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
- /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/c++/14.2.1/bits/specfun.h \
  /usr/include/c++/14.2.1/bits/stl_algobase.h \
  /usr/include/c++/14.2.1/bits/functexcept.h \
  /usr/include/c++/14.2.1/bits/exception_defines.h \
+ /usr/include/c++/14.2.1/bits/cpp_type_traits.h \
+ /usr/include/c++/14.2.1/bits/version.h \
+ /usr/include/c++/14.2.1/ext/type_traits.h \
  /usr/include/c++/14.2.1/ext/numeric_traits.h \
  /usr/include/c++/14.2.1/bits/stl_pair.h \
  /usr/include/c++/14.2.1/type_traits /usr/include/c++/14.2.1/bits/move.h \
@@ -64,6 +30,66 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /usr/include/c++/14.2.1/debug/debug.h \
  /usr/include/c++/14.2.1/bits/predefined_ops.h \
  /usr/include/c++/14.2.1/bit /usr/include/c++/14.2.1/concepts \
+ /usr/include/c++/14.2.1/bits/allocator.h \
+ /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/14.2.1/bits/new_allocator.h /usr/include/c++/14.2.1/new \
+ /usr/include/c++/14.2.1/bits/exception.h \
+ /usr/include/c++/14.2.1/bits/memoryfwd.h \
+ /usr/include/c++/14.2.1/bits/stl_construct.h \
+ /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/14.2.1/ext/alloc_traits.h \
+ /usr/include/c++/14.2.1/bits/alloc_traits.h \
+ /usr/include/c++/14.2.1/bits/stl_vector.h \
+ /usr/include/c++/14.2.1/initializer_list \
+ /usr/include/c++/14.2.1/bits/stl_bvector.h \
+ /usr/include/c++/14.2.1/bits/functional_hash.h \
+ /usr/include/c++/14.2.1/bits/hash_bytes.h \
+ /usr/include/c++/14.2.1/bits/refwrap.h \
+ /usr/include/c++/14.2.1/bits/invoke.h \
+ /usr/include/c++/14.2.1/bits/stl_function.h \
+ /usr/include/c++/14.2.1/backward/binders.h \
+ /usr/include/c++/14.2.1/bits/range_access.h \
+ /usr/include/c++/14.2.1/bits/vector.tcc \
+ /usr/include/c++/14.2.1/bits/memory_resource.h \
+ /usr/include/c++/14.2.1/cstddef \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+ /usr/include/c++/14.2.1/bits/uses_allocator.h \
+ /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
+ /usr/include/c++/14.2.1/tuple \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VSensitiveDetector.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4CollectionNameVector.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/globals.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ios.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Types.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4GlobalConfig.hh \
+ /usr/include/c++/14.2.1/complex /usr/include/c++/14.2.1/cmath \
+ /usr/include/math.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h /usr/include/bits/flt-eval-method.h \
+ /usr/include/bits/fp-logb.h /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-macros.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/14.2.1/bits/std_abs.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/sys/types.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/endianness.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/14.2.1/bits/specfun.h \
  /usr/include/c++/14.2.1/limits /usr/include/c++/14.2.1/tr1/gamma.tcc \
  /usr/include/c++/14.2.1/tr1/special_function_util.h \
  /usr/include/c++/14.2.1/tr1/bessel_function.tcc \
@@ -79,7 +105,6 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /usr/include/c++/14.2.1/sstream /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/ios /usr/include/c++/14.2.1/iosfwd \
  /usr/include/c++/14.2.1/bits/stringfwd.h \
- /usr/include/c++/14.2.1/bits/memoryfwd.h \
  /usr/include/c++/14.2.1/bits/postypes.h /usr/include/c++/14.2.1/cwchar \
  /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
@@ -87,11 +112,9 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/c++/14.2.1/exception \
- /usr/include/c++/14.2.1/bits/exception.h \
  /usr/include/c++/14.2.1/bits/exception_ptr.h \
  /usr/include/c++/14.2.1/bits/cxxabi_init_exception.h \
  /usr/include/c++/14.2.1/typeinfo \
- /usr/include/c++/14.2.1/bits/hash_bytes.h /usr/include/c++/14.2.1/new \
  /usr/include/c++/14.2.1/bits/nested_exception.h \
  /usr/include/c++/14.2.1/bits/char_traits.h \
  /usr/include/c++/14.2.1/bits/localefwd.h \
@@ -118,23 +141,11 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
  /usr/include/sys/single_threaded.h \
  /usr/include/c++/14.2.1/bits/locale_classes.h \
- /usr/include/c++/14.2.1/string /usr/include/c++/14.2.1/bits/allocator.h \
- /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/14.2.1/bits/new_allocator.h \
+ /usr/include/c++/14.2.1/string \
  /usr/include/c++/14.2.1/bits/ostream_insert.h \
  /usr/include/c++/14.2.1/bits/cxxabi_forced.h \
- /usr/include/c++/14.2.1/bits/stl_function.h \
- /usr/include/c++/14.2.1/backward/binders.h \
- /usr/include/c++/14.2.1/bits/refwrap.h \
- /usr/include/c++/14.2.1/bits/invoke.h \
- /usr/include/c++/14.2.1/bits/range_access.h \
- /usr/include/c++/14.2.1/initializer_list \
  /usr/include/c++/14.2.1/bits/basic_string.h \
- /usr/include/c++/14.2.1/ext/alloc_traits.h \
- /usr/include/c++/14.2.1/bits/alloc_traits.h \
- /usr/include/c++/14.2.1/bits/stl_construct.h \
  /usr/include/c++/14.2.1/string_view \
- /usr/include/c++/14.2.1/bits/functional_hash.h \
  /usr/include/c++/14.2.1/bits/string_view.tcc \
  /usr/include/c++/14.2.1/ext/string_conversions.h \
  /usr/include/c++/14.2.1/cstdlib /usr/include/c++/14.2.1/cstdio \
@@ -149,11 +160,6 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/14.2.1/bits/charconv.h \
  /usr/include/c++/14.2.1/bits/basic_string.tcc \
- /usr/include/c++/14.2.1/bits/memory_resource.h \
- /usr/include/c++/14.2.1/cstddef \
- /usr/include/c++/14.2.1/bits/uses_allocator.h \
- /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
- /usr/include/c++/14.2.1/tuple \
  /usr/include/c++/14.2.1/bits/locale_classes.tcc \
  /usr/include/c++/14.2.1/system_error \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
@@ -218,46 +224,18 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /usr/include/c++/14.2.1/bits/parse_numbers.h \
  /usr/include/c++/14.2.1/bits/std_mutex.h \
  /usr/include/c++/14.2.1/bits/unique_lock.h \
- /usr/include/c++/14.2.1/vector \
- /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/14.2.1/bits/stl_vector.h \
- /usr/include/c++/14.2.1/bits/stl_bvector.h \
- /usr/include/c++/14.2.1/bits/vector.tcc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/14.2.1/memory \
- /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
- /usr/include/c++/14.2.1/bits/align.h \
- /usr/include/c++/14.2.1/bits/unique_ptr.h \
- /usr/include/c++/14.2.1/bits/shared_ptr.h \
- /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
- /usr/include/c++/14.2.1/bits/allocated_ptr.h \
- /usr/include/c++/14.2.1/ext/concurrence.h \
- /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
- /usr/include/c++/14.2.1/bits/atomic_base.h \
- /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
- /usr/include/c++/14.2.1/backward/auto_ptr.h \
- /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Region.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4GeomSplitter.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/geomwdefs.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4AutoLock.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Threading.hh \
- /usr/include/c++/14.2.1/chrono \
- /usr/include/c++/14.2.1/condition_variable \
- /usr/include/c++/14.2.1/future \
- /usr/include/c++/14.2.1/bits/atomic_futex.h \
- /usr/include/c++/14.2.1/atomic \
- /usr/include/c++/14.2.1/bits/std_function.h \
- /usr/include/c++/14.2.1/bits/std_thread.h /usr/include/c++/14.2.1/thread \
- /usr/include/c++/14.2.1/bits/this_thread_sleep.h \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Region.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VPhysicalVolume.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/geomdefs.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4RotationMatrix.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4HCofThisEvent.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Allocator.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4AllocatorPool.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VHitsCollection.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Step.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ThreeVector.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Utility/defs.h \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VPhysicalVolume.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/geomdefs.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4RotationMatrix.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Vector/Rotation.h \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Vector/LorentzVector.h \
@@ -274,10 +252,34 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Vector/RotationZ.h \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Vector/RotationZ.icc \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Vector/Rotation.icc \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4GeomSplitter.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/geomwdefs.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4AutoLock.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Threading.hh \
+ /usr/include/c++/14.2.1/chrono \
+ /usr/include/c++/14.2.1/condition_variable \
+ /usr/include/c++/14.2.1/bits/shared_ptr.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/14.2.1/bits/allocated_ptr.h \
+ /usr/include/c++/14.2.1/bits/unique_ptr.h \
+ /usr/include/c++/14.2.1/ext/concurrence.h /usr/include/c++/14.2.1/future \
+ /usr/include/c++/14.2.1/bits/atomic_base.h \
+ /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/14.2.1/bits/atomic_futex.h \
+ /usr/include/c++/14.2.1/atomic \
+ /usr/include/c++/14.2.1/bits/std_function.h \
+ /usr/include/c++/14.2.1/bits/std_thread.h /usr/include/c++/14.2.1/thread \
+ /usr/include/c++/14.2.1/bits/this_thread_sleep.h \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VPhysicalVolume.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4LogicalVolume.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VPhysicalVolume.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4PVPlacement.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4StepPoint.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SteppingControl.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4StepStatus.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4TouchableHandle.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VTouchable.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4TouchableHistory.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationHistory.hh \
+ /usr/include/assert.h \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4AffineTransform.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Transform3D.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Geometry/Transform3D.h \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Geometry/Transform3D.icc \
@@ -285,8 +287,25 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Geometry/Vector3D.h \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NistManager.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ICRU90StoppingData.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4AffineTransform.icc \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationLevel.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationLevelRep.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationLevelRep.icc \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationLevel.icc \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationHistoryPool.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationHistory.icc \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4LogicalVolume.hh \
+ /usr/include/c++/14.2.1/memory \
+ /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/14.2.1/bits/align.h \
+ /usr/include/c++/14.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/14.2.1/backward/auto_ptr.h \
+ /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Region.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Region.icc \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4LogicalVolume.icc \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4TouchableHistory.icc \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ReferenceCountedHandle.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Material.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Element.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ElementTable.hh \
@@ -313,66 +332,6 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4OrderedTable.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4DataVector.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4DataVector.icc \
- /usr/include/assert.h \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NistElementBuilder.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NistMaterialBuilder.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Pow.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Exp.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Material.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Element.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SystemOfUnits.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4UnitsTable.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4UnitsTable.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Box.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4GeomTypes.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4GeomConfig.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4CSGSolid.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VSolid.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VSolid.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Polyhedron.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/HepPolyhedron.h \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4TwoVector.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Vector/TwoVector.h \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Point3D.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Normal3D.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Visible.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Visible.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Box.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VisAttributes.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/graphics_reps_defs.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Colour.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Color.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VisAttributes.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Color.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SDManager.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4HCtable.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SDStructure.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VSensitiveDetector.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4CollectionNameVector.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4HCofThisEvent.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Allocator.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4AllocatorPool.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VHitsCollection.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Step.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4StepPoint.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SteppingControl.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4StepStatus.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4TouchableHandle.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VTouchable.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4TouchableHistory.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationHistory.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4AffineTransform.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4AffineTransform.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationLevel.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationLevelRep.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationLevelRep.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationLevel.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationHistoryPool.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4NavigationHistory.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4LogicalVolume.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4TouchableHistory.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ReferenceCountedHandle.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4StepPoint.icc \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4TrackVector.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Step.icc \
@@ -396,34 +355,16 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o: \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VReadOutGeometry.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SensitiveVolumeList.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VSDFilter.hh \
- /home/hooke/works/smcd-v0/include/SensitiveDetector.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VSensitiveDetector.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SubtractionSolid.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4BooleanSolid.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4DisplacedSolid.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VBooleanProcessor.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4BooleanSolid.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4MultiFunctionalDetector.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4PSEnergyDeposit.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VPrimitivePlotter.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VPrimitiveScorer.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4MultiFunctionalDetector.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4THitsMap.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4THitsCollection.hh \
- /usr/include/c++/14.2.1/unordered_map \
- /usr/include/c++/14.2.1/bits/unordered_map.h \
- /usr/include/c++/14.2.1/bits/hashtable.h \
- /usr/include/c++/14.2.1/bits/hashtable_policy.h \
- /usr/include/c++/14.2.1/bits/enable_special_members.h \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4PSNofSecondary.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ParticleTable.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ParticleTableIterator.hh \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ParticleTable.icc \
- /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SDParticleFilter.hh \
  /home/hooke/works/smcd-v0/include/TrackerHit.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Allocator.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4THitsCollection.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Threading.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ThreeVector.hh \
  /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VHit.hh \
- /home/hooke/works/smcd-v0/include/TrackerSD.hh
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4HCofThisEvent.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SDManager.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4HCtable.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4SDStructure.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4VSensitiveDetector.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4Step.hh \
+ /opt/Geant4/Geant4-v11.3.1/include/Geant4/G4ios.hh

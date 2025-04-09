@@ -114,10 +114,24 @@ CMakeFiles/smcd.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/DetectorConstruction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hooke/works/smcd-v0/src/DetectorConstruction.cc -o CMakeFiles/smcd.dir/src/DetectorConstruction.cc.s
 
+CMakeFiles/smcd.dir/src/EventAction.cc.o: CMakeFiles/smcd.dir/flags.make
+CMakeFiles/smcd.dir/src/EventAction.cc.o: /home/hooke/works/smcd-v0/src/EventAction.cc
+CMakeFiles/smcd.dir/src/EventAction.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/smcd.dir/src/EventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/EventAction.cc.o -MF CMakeFiles/smcd.dir/src/EventAction.cc.o.d -o CMakeFiles/smcd.dir/src/EventAction.cc.o -c /home/hooke/works/smcd-v0/src/EventAction.cc
+
+CMakeFiles/smcd.dir/src/EventAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/EventAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hooke/works/smcd-v0/src/EventAction.cc > CMakeFiles/smcd.dir/src/EventAction.cc.i
+
+CMakeFiles/smcd.dir/src/EventAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/EventAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hooke/works/smcd-v0/src/EventAction.cc -o CMakeFiles/smcd.dir/src/EventAction.cc.s
+
 CMakeFiles/smcd.dir/src/PhysicsList.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/src/PhysicsList.cc.o: /home/hooke/works/smcd-v0/src/PhysicsList.cc
 CMakeFiles/smcd.dir/src/PhysicsList.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/smcd.dir/src/PhysicsList.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/smcd.dir/src/PhysicsList.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/PhysicsList.cc.o -MF CMakeFiles/smcd.dir/src/PhysicsList.cc.o.d -o CMakeFiles/smcd.dir/src/PhysicsList.cc.o -c /home/hooke/works/smcd-v0/src/PhysicsList.cc
 
 CMakeFiles/smcd.dir/src/PhysicsList.cc.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/smcd.dir/src/PhysicsList.cc.s: cmake_force
 CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o: /home/hooke/works/smcd-v0/src/PrimaryGenertor.cc
 CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o -MF CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o.d -o CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o -c /home/hooke/works/smcd-v0/src/PrimaryGenertor.cc
 
 CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.i: cmake_force
@@ -142,10 +156,24 @@ CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hooke/works/smcd-v0/src/PrimaryGenertor.cc -o CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.s
 
+CMakeFiles/smcd.dir/src/RunAction.cc.o: CMakeFiles/smcd.dir/flags.make
+CMakeFiles/smcd.dir/src/RunAction.cc.o: /home/hooke/works/smcd-v0/src/RunAction.cc
+CMakeFiles/smcd.dir/src/RunAction.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/smcd.dir/src/RunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/RunAction.cc.o -MF CMakeFiles/smcd.dir/src/RunAction.cc.o.d -o CMakeFiles/smcd.dir/src/RunAction.cc.o -c /home/hooke/works/smcd-v0/src/RunAction.cc
+
+CMakeFiles/smcd.dir/src/RunAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/RunAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hooke/works/smcd-v0/src/RunAction.cc > CMakeFiles/smcd.dir/src/RunAction.cc.i
+
+CMakeFiles/smcd.dir/src/RunAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/RunAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hooke/works/smcd-v0/src/RunAction.cc -o CMakeFiles/smcd.dir/src/RunAction.cc.s
+
 CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o: CMakeFiles/smcd.dir/flags.make
 CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o: /home/hooke/works/smcd-v0/src/SensitiveDetector.cc
 CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o -c /home/hooke/works/smcd-v0/src/SensitiveDetector.cc
 
 CMakeFiles/smcd.dir/src/SensitiveDetector.cc.i: cmake_force
@@ -156,14 +184,46 @@ CMakeFiles/smcd.dir/src/SensitiveDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/SensitiveDetector.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hooke/works/smcd-v0/src/SensitiveDetector.cc -o CMakeFiles/smcd.dir/src/SensitiveDetector.cc.s
 
+CMakeFiles/smcd.dir/src/TrackerHit.cc.o: CMakeFiles/smcd.dir/flags.make
+CMakeFiles/smcd.dir/src/TrackerHit.cc.o: /home/hooke/works/smcd-v0/src/TrackerHit.cc
+CMakeFiles/smcd.dir/src/TrackerHit.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/smcd.dir/src/TrackerHit.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/TrackerHit.cc.o -MF CMakeFiles/smcd.dir/src/TrackerHit.cc.o.d -o CMakeFiles/smcd.dir/src/TrackerHit.cc.o -c /home/hooke/works/smcd-v0/src/TrackerHit.cc
+
+CMakeFiles/smcd.dir/src/TrackerHit.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/TrackerHit.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hooke/works/smcd-v0/src/TrackerHit.cc > CMakeFiles/smcd.dir/src/TrackerHit.cc.i
+
+CMakeFiles/smcd.dir/src/TrackerHit.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/TrackerHit.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hooke/works/smcd-v0/src/TrackerHit.cc -o CMakeFiles/smcd.dir/src/TrackerHit.cc.s
+
+CMakeFiles/smcd.dir/src/TrackerSD.cc.o: CMakeFiles/smcd.dir/flags.make
+CMakeFiles/smcd.dir/src/TrackerSD.cc.o: /home/hooke/works/smcd-v0/src/TrackerSD.cc
+CMakeFiles/smcd.dir/src/TrackerSD.cc.o: CMakeFiles/smcd.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/smcd.dir/src/TrackerSD.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/smcd.dir/src/TrackerSD.cc.o -MF CMakeFiles/smcd.dir/src/TrackerSD.cc.o.d -o CMakeFiles/smcd.dir/src/TrackerSD.cc.o -c /home/hooke/works/smcd-v0/src/TrackerSD.cc
+
+CMakeFiles/smcd.dir/src/TrackerSD.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/smcd.dir/src/TrackerSD.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hooke/works/smcd-v0/src/TrackerSD.cc > CMakeFiles/smcd.dir/src/TrackerSD.cc.i
+
+CMakeFiles/smcd.dir/src/TrackerSD.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/smcd.dir/src/TrackerSD.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hooke/works/smcd-v0/src/TrackerSD.cc -o CMakeFiles/smcd.dir/src/TrackerSD.cc.s
+
 # Object files for target smcd
 smcd_OBJECTS = \
 "CMakeFiles/smcd.dir/smcd.cc.o" \
 "CMakeFiles/smcd.dir/src/ActionInitialization.cc.o" \
 "CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o" \
+"CMakeFiles/smcd.dir/src/EventAction.cc.o" \
 "CMakeFiles/smcd.dir/src/PhysicsList.cc.o" \
 "CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o" \
-"CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o"
+"CMakeFiles/smcd.dir/src/RunAction.cc.o" \
+"CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o" \
+"CMakeFiles/smcd.dir/src/TrackerHit.cc.o" \
+"CMakeFiles/smcd.dir/src/TrackerSD.cc.o"
 
 # External object files for target smcd
 smcd_EXTERNAL_OBJECTS =
@@ -171,9 +231,13 @@ smcd_EXTERNAL_OBJECTS =
 smcd: CMakeFiles/smcd.dir/smcd.cc.o
 smcd: CMakeFiles/smcd.dir/src/ActionInitialization.cc.o
 smcd: CMakeFiles/smcd.dir/src/DetectorConstruction.cc.o
+smcd: CMakeFiles/smcd.dir/src/EventAction.cc.o
 smcd: CMakeFiles/smcd.dir/src/PhysicsList.cc.o
 smcd: CMakeFiles/smcd.dir/src/PrimaryGenertor.cc.o
+smcd: CMakeFiles/smcd.dir/src/RunAction.cc.o
 smcd: CMakeFiles/smcd.dir/src/SensitiveDetector.cc.o
+smcd: CMakeFiles/smcd.dir/src/TrackerHit.cc.o
+smcd: CMakeFiles/smcd.dir/src/TrackerSD.cc.o
 smcd: CMakeFiles/smcd.dir/build.make
 smcd: CMakeFiles/smcd.dir/compiler_depend.ts
 smcd: /opt/Geant4/Geant4-v11.3.1/lib/libG4Tree.so
@@ -212,10 +276,10 @@ smcd: /usr/lib/libXt.so
 smcd: /usr/lib/libICE.so
 smcd: /usr/lib/libSM.so
 smcd: /usr/lib/libX11.so
-smcd: /usr/lib/libQt6Widgets.so.6.8.3
-smcd: /usr/lib/libQt6Gui.so.6.8.3
+smcd: /usr/lib/libQt6Widgets.so.6.9.0
+smcd: /usr/lib/libQt6Gui.so.6.9.0
 smcd: /usr/lib/libGL.so
-smcd: /usr/lib/libQt6Core.so.6.8.3
+smcd: /usr/lib/libQt6Core.so.6.9.0
 smcd: /usr/lib/libxerces-c.so
 smcd: /opt/Geant4/Geant4-v11.3.1/lib/libG4analysis.so
 smcd: /usr/lib/libfreetype.so
@@ -227,7 +291,7 @@ smcd: /opt/Geant4/Geant4-v11.3.1/lib/libG4clhep.so
 smcd: /opt/Geant4/Geant4-v11.3.1/lib/libG4ptl.so.3.0.0
 smcd: /usr/lib/libtbb.so.12.15
 smcd: CMakeFiles/smcd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable smcd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hooke/works/smcd-v0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable smcd"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smcd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
