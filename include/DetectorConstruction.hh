@@ -25,6 +25,8 @@
 #include "G4PSNofSecondary.hh"
 #include "G4SDParticleFilter.hh"
 
+#include "TrackerHit.hh"
+#include "TrackerSD.hh"
 class DetectorConstruction: public G4VUserDetectorConstruction {
 
 public:

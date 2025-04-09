@@ -2,8 +2,6 @@
 # Geant4 Macro File - Discrete Energy Spectrum
 # Based on provided data (energy[keV], probability)
 # ==============================================
-
-
 /run/initialize
 # Initialize GPS
 /gps/particle e-

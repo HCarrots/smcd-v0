@@ -1,5 +1,6 @@
 #include "DetectorConstruction.hh"
 
+
 DetectorConstruction::DetectorConstruction(){
     
 };
@@ -97,55 +98,16 @@ G4VPhysicalVolume *DetectorConstruction::Construct(){
     G4VisAttributes *C3VisAtt = new G4VisAttributes(G4Colour(1.0,1.0,1.0,0.5));
     C3VisAtt->SetVisibility(true);
     ceramics_3_logic->SetVisAttributes(C3VisAtt);
-
-
-
-    G4MultiFunctionalDetector* bremsDetector1 = new G4MultiFunctionalDetector("BremsDetector1");
-    G4VPrimitiveScorer* doseScorer1 = new G4PSEnergyDeposit("Dose");
-    bremsDetector1->RegisterPrimitive(doseScorer1);
-    ceramics_1_logic->SetSensitiveDetector(bremsDetector1);
-
-    G4MultiFunctionalDetector* bremsDetectorSiC = new G4MultiFunctionalDetector("BremsDetectorSiC");
-    G4VPrimitiveScorer* doseScorerSiC = new G4PSEnergyDeposit("Dose");
-    bremsDetectorSiC->RegisterPrimitive(doseScorerSiC);
-    logicSiC->SetSensitiveDetector(bremsDetectorSiC);
-
-    G4MultiFunctionalDetector* bremsDetector2 = new G4MultiFunctionalDetector("BremsDetector2");
-    G4VPrimitiveScorer* doseScorer2 = new G4PSEnergyDeposit("Dose");
-    bremsDetector2->RegisterPrimitive(doseScorer2);
-    ceramics_2_logic->SetSensitiveDetector(bremsDetector2);
-    G4MultiFunctionalDetector* bremsDetector3 = new G4MultiFunctionalDetector("BremsDetector3");
-    G4VPrimitiveScorer* doseScorer3 = new G4PSEnergyDeposit("Dose");
-    bremsDetector3->RegisterPrimitive(doseScorer3);
-    ceramics_3_logic->SetSensitiveDetector(bremsDetector3);
+    
     return physWorld;
     
 }
 
 void DetectorConstruction::ConstructSDandField(){
-    G4SDManager* sdManager = G4SDManager::GetSDMpointer();
-    
-    // 初始化探测器
-    bremsDetector1 = new G4MultiFunctionalDetector("BremsDetector1");
-    bremsDetectorSiC = new G4MultiFunctionalDetector("BremsDetectorSiC");
-    bremsDetector2 = new G4MultiFunctionalDetector("BremsDetector2");
-    bremsDetector3 = new G4MultiFunctionalDetector("BremsDetector3");
-
-    // 注册到SD管理器
-    sdManager->AddNewDetector(bremsDetector1);
-    sdManager->AddNewDetector(bremsDetectorSiC);
-    sdManager->AddNewDetector(bremsDetector2);
-    sdManager->AddNewDetector(bremsDetector3);
-
-    // 配置γ光子计数器
-    G4VPrimitiveScorer* bremScorer = new G4PSNofSecondary("BremPhoton");
-    G4SDParticleFilter* gammaFilter = new G4SDParticleFilter("gammaFilter");
-    gammaFilter->add("gamma");
-    bremScorer->SetFilter(gammaFilter);
-
-    // 为每个探测器单独注册计数器（避免共享计数器）
-    bremsDetector1->RegisterPrimitive(new G4PSNofSecondary("BremPhoton1"));
-    bremsDetector2->RegisterPrimitive(new G4PSNofSecondary("BremPhoton2")); 
-    bremsDetector3->RegisterPrimitive(new G4PSNofSecondary("BremPhoton3"));
-    bremsDetectorSiC->RegisterPrimitive(new G4PSNofSecondary("BremPhotonSiC"));
+    G4String trackerChamberSDname = "/TrackerChamberSD";
+    auto trackerSD = new TrackerSD(trackerChamberSDname, "TrackerHitsCollection");
+    G4SDManager::GetSDMpointer()->AddNewDetector(trackerSD);
+    // Setting trackerSD to all logical volumes with the same name
+    // of "Chamber_LV".
+    SetSensitiveDetector("LogicSiC", trackerSD, true);
 }

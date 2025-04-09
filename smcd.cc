@@ -42,23 +42,22 @@ int main(int argc,char **argv){
     
     //ui->SessionStart();
     //delete ui;
-      // Process macro or start UI session
-  //
     if (!ui) {
-    // batch mode
-    G4String command = "/control/execute ";
-    G4String fileName = argv[1];
-    UImanager->ApplyCommand(command + fileName);
-    }
-    else {
-    // interactive mode
-    UImanager->ApplyCommand("/control/execute vis.mac");
-    //if (ui->IsGUI()) {
-    //  UImanager->ApplyCommand("/control/execute gui.mac");
-    //}
-    ui->SessionStart();
-    delete ui;
-    }    
+        // batch mode
+        G4String command = "/control/execute ";
+        G4String fileName = argv[1];
+        uiManager->ApplyCommgand(command + fileName);
+      }
+      else {
+        // interactive mode
+        uiManager->ApplyCommand("/control/execute vis.mac");
+        //if (ui->IsGUI()) {
+        //  UImanager->ApplyCommand("/control/execute gui.mac");
+        //}
+        ui->SessionStart();
+        delete ui;
+      }
+
     delete visManager;
 
     return 0;
