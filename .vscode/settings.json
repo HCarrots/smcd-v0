@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "*.icc": "cpp",
-        "chrono": "cpp"
-    },
-    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
-        "clang-diagnostic-error"
-    ]
-}
